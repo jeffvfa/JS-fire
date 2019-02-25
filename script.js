@@ -1,5 +1,5 @@
-const width = 75;
-const height = 40;
+const width = 20;
+const height = 36;
 const matrix = [];
 const matrix_size = width * height;
 const debug = false;
@@ -9,7 +9,7 @@ const fireColorsPalette = [{"r":7,"g":7,"b":7},{"r":31,"g":7,"b":7},{"r":47,"g":
 function start(){
     createMatrix()
     render();
-    setInterval(animateFire,1);
+    setInterval(animateFire,0.2);
 }
 
 
